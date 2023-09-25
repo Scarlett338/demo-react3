@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    }
+    
+.productBorder{
+    padding: 10px;
+    border: #fff solid 10px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+button{
+    margin: 0 auto;
+}
