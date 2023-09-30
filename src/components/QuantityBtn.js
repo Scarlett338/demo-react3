@@ -38,7 +38,7 @@ export default function QuantityBtn({ productInfo }) {
   };
 
   const handleSubtract = () => {
-    if (productIndexInCart.quantity === 1) {
+    if (cartItems[productIndexInCart].quantity === 1) {
       let newCartArr = [...cartItems];
       newCartArr.splice(productIndexInCart, 1);
       setCartItems(newCartArr);
